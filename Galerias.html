@@ -1,0 +1,250 @@
+ <!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="css/estilo.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
+<link href="favicon2.png" rel="shortcut icon" /> 
+<title>BlackHole</title>
+</head>
+
+<body>
+
+<div  class="container">
+
+<header>
+	<h1> ▼BlackHole▼</h1>
+   
+</header>
+
+<nav id="arriba">
+<ul>
+    <li> <a class="menu" href="index.html"> Inicio</a></li>
+	<li> <a class="menu" href="Galerias.html"> Fotografía </a> </li>
+	<li> <a class="menu" href="videos.html"> Sonido & visual</a></li>
+	<li> <a class="menu" href="historias.html"> Cinema</a></li>
+	<li> <a class="menu" href="contacto.html"> Contacto</a></li>
+</ul>
+	
+</nav>
+
+
+
+<div class="row">
+ <div class="column">
+  <img src="img/1.JPG" width="300" height="200" onClick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/2.JPG" width="300" height="200" onClick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/3.JPG" width="300" height="200" onClick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/4.JPG" width="300" height="200" onClick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/5.JPG" width="300" height="200" onClick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/6.JPG" width="300" height="200" onClick="openModal();currentSlide(6)" class="hover-shadow">
+  </div> 
+ <div class="column">
+  <img src="img/7.JPG" width="300" height="200" onClick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/8.JPG" width="300" height="200" onClick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/9.JPG" width="300" height="200" onClick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/10.JPG" width="300" height="200" onClick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/11.JPG" width="300" height="200" onClick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+  <div class="column">
+  <img src="img/12.JPG" width="300" height="200" onClick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+  
+  </div>
+  
+  
+<div id="myModal" class="modal">
+   <span class="clse cursor" onClick="closeModal()">&times; </span>
+   <div class="modal-content">
+   
+   <div class="mySlides">
+    <div class="numbertext"> 1/12 </div>
+     <img src="img/1g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 2/12 </div>
+     <img src="img/2g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 3/12 </div>
+     <img src="img/3g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 4/12 </div>
+     <img src="img/4g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 5/12 </div>
+     <img src="img/5g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 6/12 </div>
+     <img src="img/6g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 7/12 </div>
+     <img src="img/7g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 8/12 </div>
+     <img src="img/8g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 9/12 </div>
+     <img src="img/9g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 10/12 </div>
+     <img src="img/10g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 11/12 </div>
+     <img src="img/11g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+     <div class="mySlides">
+    <div class="numbertext"> 12/12 </div>
+     <img src="img/12g.JPG" width="600" height="400" style="100%">
+     </div>
+     
+    <a class="prev" onClick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onClick="plusSlides(1)">&#10095;</a>
+    
+    <div class="caption-container">
+      <p id="caption"></p>
+      
+      </div>
+      
+      <div class="column">
+       <img class="demo" src="img/1.JPG" width="300" height="200" onClick="currentSlides(1)" alt="imagen 1">
+       </div>
+        
+         <div class="column">
+       <img class="demo" src="img/2.JPG" width="300" height="200" onClick="currentSlides(2)" alt="imagen 1">
+       </div>
+        
+         <div class="column">
+       <img class="demo" src="img/3.JPG" width="300" height="200"onClick="currentSlides(3)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/4.JPG" width="300" height="200"onClick="currentSlides(4)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/5.JPG" width="300" height="200"onClick="currentSlides(5)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/6.JPG" width="300" height="200"onClick="currentSlides(6)" alt="imagen 1">
+       </div>
+        
+        <div class="column">
+       <img class="demo" src="img/7.JPG" width="300" height="200"onClick="currentSlides(7)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/8.JPG" width="300" height="200"onClick="currentSlides(8)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/9.JPG" width="300" height="200"onClick="currentSlides(9)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/10.JPG" width="300" height="200"onClick="currentSlides(10)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/11.JPG" width="300" height="200"onClick="currentSlides(11)" alt="imagen 1">
+       </div>
+       
+       <div class="column">
+       <img class="demo" src="img/12.JPG" width="300" height="200"onClick="currentSlides(12)" alt="imagen 1">
+       </div>
+        </div>
+        </div>
+        
+
+ 
+<footer>
+	  <a class="menuabajo" href="index.html"> Inicio</a>
+	  <a class="menuabajo" href="Galerias.html"> Fotografía </a> 
+	  <a class="menuabajo" href="videos.html"> Sonido & visual</a>
+	  <a class="menuabajo" href="historias.html"> Cinema</a>
+	  <a class="menuabajo" href="contacto.html"> Contacto</a>
+      
+      
+     <ul>
+      <img src="img/Instagram.png" width="50" height="50" alt="instagram" id="instagram">
+      <img src="img/Pinterest.png" width="40" height="40" alt="pinterest">
+      <img src="img/Snapchat_logo.svg.png" width="40" height="40" alt="snapchat">
+      <img src="img/flickr-logo-png-4.png" width="40" height="40" alt="fliker">
+      </ul>
+      
+      
+</footer>
+</div>
+<script>
+function openModal() {
+document.getElementById('myModal').style.display = "block";
+}
+function closeModal() {
+document.getElementById('myModal').style.display = "none";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("demo");
+var captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
